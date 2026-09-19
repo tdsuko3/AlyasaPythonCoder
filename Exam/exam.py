@@ -16,7 +16,7 @@ read_from_file()
 print(the_world)
 
 def write_to_file(indonesia, english):
-    with open('Exam/translator.txt') as file:
+    with open('Exam/translator.txt', 'a') as file:
         file.write('\n' + indonesia + '/' + english)
 
 
